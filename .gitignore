@@ -1,0 +1,27 @@
+# Local OS-specific files
+.DS_Store
+
+# Gradle files
+.gradle/
+build/
+
+# Local configuration files
+local.properties
+
+# Signing key (keystore)
+tamara-example.jks
+
+# Firebase configuration
+google-services.json
+
+# Logs and temporary files
+*.log
+*.tmp
+*.bak
+
+# IDE-specific files (if using an IDE)
+.idea/
+*.iml
+
+# Release notes (optional)
+release_notes.txt
