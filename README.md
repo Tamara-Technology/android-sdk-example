@@ -81,10 +81,10 @@ implementation "co.tamara.merchant:android-sdk:1.1.0"
 ## **Important Notes**
 - **Do not hardcode sensitive credentials** (e.g., `AUTH_TOKEN`, `PUBLIC_KEY`) in production apps. This example is for testing purposes only.
 - Use secure methods, such as encrypted storage or server-side configurations, for production environments.
-
+- **You can check all the supported functions here: [Functions](FUNCTIONS.md)**
 ---
 
 ## **Support**
-For issues or questions about the Tamara SDK, contact [Tamara Integration Support](integrations@tamara.co).
+For issues or questions about the Tamara SDK, contact **Tamara Integration Support** at integrations@tamara.co
 
 ---
