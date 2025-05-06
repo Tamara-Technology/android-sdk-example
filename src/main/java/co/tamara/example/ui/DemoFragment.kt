@@ -171,6 +171,8 @@ class DemoFragment : Fragment() {
             })
         }
 
+        TamaraPayment.renderWidgetCartPage(this@DemoFragment, "en", "SA", PUBLIC_KEY, 950.00)
+
         binding.cartPage.setOnClickListener {
             DialogFactory.dialogWidget(
                 requireActivity(),
@@ -186,9 +188,9 @@ class DemoFragment : Fragment() {
                 })
         }
 
-
-        TamaraPayment.renderWidgetProduct(this@DemoFragment, "en", "SA", PUBLIC_KEY, 950.00)
-
+        Handler(Looper.getMainLooper()).postDelayed({
+            TamaraPayment.renderWidgetProduct(this@DemoFragment, "en", "SA", PUBLIC_KEY, 950.00)
+        }, 800)
         binding.product.setOnClickListener {
             DialogFactory.dialogWidget(
                 requireActivity(),

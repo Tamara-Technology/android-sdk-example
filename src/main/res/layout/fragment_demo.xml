@@ -93,7 +93,7 @@
         <WebView
             android:id="@+id/cartW"
             android:layout_width="match_parent"
-            android:layout_height="150dp"
+            android:layout_height="320dp"
             android:clickable="false"/>
         <FrameLayout
             android:id="@+id/flCart"
